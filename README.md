@@ -37,6 +37,7 @@ Ce sujet sera peut-être amené à être modifié. Dernière modification : 24/1
 <hr>
 To log with your database, you need to replace the next datas from init.php<br>
 Here are they :<br>
+<strong>host</strong><br>
 <strong>name</strong><br>
 <strong>databaseName</strong><br>
 <strong>password</strong><br>
