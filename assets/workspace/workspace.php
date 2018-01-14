@@ -42,9 +42,9 @@
                 $downloadFile = $uploaddir.$datas;
                 echo '<a href="'.$downloadFile.'" class="downloadFiles '.substr($datas, 0, 2).'">'.$datas.'</a>
                 <div class="tasks">
-                    <form action="rename/rename.php" method="POST">
+                    <form action="rename/rename.php" method="GET">
                         <input type="submit" name="ren" value="Rename">
-                        <input type="hidden" value="../'.$downloadFile.' name="'.$datas.'">
+                        <input type="hidden" value="../'.$downloadFile.'" name="hiddenFile">
                     </form>
                     <form action="delete/delete.php" method="POST">
                         <input type="submit" name="del" value="Delete">
