@@ -34,4 +34,10 @@ Date du rendu final : 14/01/2018 à 23h00 - Aucun retard ne sera toléré.
 N’hésitez pas à me contacter à l’adresse killian.vermersch@supinternet.fr pour toute demande
 complémentaire.
 Ce sujet sera peut-être amené à être modifié. Dernière modification : 24/11/2017 .
+<hr>
+To log with your database, you need to replace the next datas from init.php<br>
+Here are they :<br>
+<strong>name</strong><br>
+<strong>databaseName</strong><br>
+<strong>password</strong><br>
 </pre>
