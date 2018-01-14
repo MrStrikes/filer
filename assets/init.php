@@ -1,4 +1,4 @@
 <?php
-$link = mysqli_connect('localhost', 'filer', 'Rtky8UdsvjjFqysZ', 'Filler');
+$link = mysqli_connect('host', 'name', 'password', 'databaseName');
 session_start();
 ?>
